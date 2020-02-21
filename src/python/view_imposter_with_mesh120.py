@@ -673,15 +673,15 @@ class SimpleImposterViewer:
 if __name__ == "__main__":
     try:
         ## your code, typically one function call
-        print "Hit ESC key to quit."
+        print("Hit ESC key to quit.")
         v = SimpleImposterViewer()
         v.show(sys.argv[1:]) 
     except:
-        print sys.exc_info()[0]
-        print traceback.format_exc()
+        print(sys.exc_info()[0])
+        print(traceback.format_exc())
     finally:
-        print "Press Enter to continue ..." 
-        raw_input()
+        print("Press Enter to continue ...")
+        #raw_input()
 
     
 
